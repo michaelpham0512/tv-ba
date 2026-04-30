@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-04-30T13:25:06.080Z",
+  "sports": {
+    "bong-da": {
+      "name": "Bóng đá",
+      "icon": "⚽",
+      "sub": "Cup C1 · EPL · V-League",
+      "url": "https://cakhiazkm.cc/",
+      "finalUrl": "https://cakhiazkx.cc/",
+      "fingerprintMatch": true,
+      "backups": []
+    },
+    "bong-chuyen": {
+      "name": "Bóng chuyền",
+      "icon": "🏐",
+      "sub": "VNL · World Cup",
+      "url": "https://volleyballworld.tv/",
+      "finalUrl": "https://tv.volleyballworld.com/",
+      "fingerprintMatch": true,
+      "backups": []
+    },
+    "tennis": {
+      "name": "Tennis",
+      "icon": "🎾",
+      "sub": "Grand Slam · ATP",
+      "url": "https://sportsurge.net/tennis.php",
+      "finalUrl": "https://v2.sportsurge.net/tennis.php",
+      "fingerprintMatch": false,
+      "backups": [
+        "https://streameast.app/tennis",
+        "https://1stream.eu/tennis-streams/"
+      ]
+    },
+    "boxing": {
+      "name": "Boxing",
+      "icon": "🥊",
+      "sub": "Quyền Anh",
+      "url": "https://sportsurge.net/boxing.php",
+      "finalUrl": "https://v2.sportsurge.net/boxing.php",
+      "fingerprintMatch": true,
+      "backups": [
+        "https://streameast.app/boxing",
+        "https://1stream.eu/boxing-streams/"
+      ]
+    },
+    "mma": {
+      "name": "MMA / UFC",
+      "icon": "🤼",
+      "sub": "Tổng hợp",
+      "url": "https://streameast.app/mma",
+      "finalUrl": "https://www.alliance4creativity.com/watch-it-legally/?utm_source=streameast.app&utm_medium=Domain&utm_campaign=Redirect",
+      "fingerprintMatch": true,
+      "backups": []
+    },
+    "muay": {
+      "name": "Muay Thái",
+      "icon": "🥋",
+      "sub": "ONE · RWS",
+      "url": "https://watch.onefc.com/",
+      "finalUrl": "https://watch.onefc.com/",
+      "fingerprintMatch": true,
+      "backups": []
+    },
+    "f1": {
+      "name": "F1",
+      "icon": "🏎️",
+      "sub": "Formula 1",
+      "url": "https://streameast.app/f1",
+      "finalUrl": "https://www.alliance4creativity.com/watch-it-legally/?utm_source=streameast.app&utm_medium=Domain&utm_campaign=Redirect",
+      "fingerprintMatch": true,
+      "backups": []
+    },
+    "motogp": {
+      "name": "MotoGP",
+      "icon": "🏍️",
+      "sub": "Đua mô tô",
+      "url": "https://sportsurge.net/motogp.php",
+      "finalUrl": "https://v2.sportsurge.net/motogp.php",
+      "fingerprintMatch": true,
+      "backups": [
+        "https://streameast.app/motogp",
+        "https://1stream.eu/motogp-streams/"
+      ]
+    }
+  }
+}
