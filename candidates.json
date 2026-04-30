@@ -1,0 +1,141 @@
+{
+  "_comment": "Candidate URLs per sport. Health checker picks best live one. Order = preference.",
+  "_lastReview": "2026-04-30",
+  "sports": {
+    "bong-da": {
+      "name": "Bóng đá",
+      "icon": "⚽",
+      "sub": "Cup C1 · EPL · V-League",
+      "language": "vi",
+      "fingerprints": ["bóng đá", "trực tiếp", "BLV", "ngoại hạng"],
+      "candidates": [
+        "https://mecra.io/",
+        "https://cakhiazkm.cc/",
+        "https://vn-cakhia.com/",
+        "https://socolive8.cv/",
+        "https://socolive5.in/",
+        "https://nikio.io/",
+        "https://pockey.io/",
+        "https://ariia.io/",
+        "https://xoilackx.tv/",
+        "https://thapcamtv.one/",
+        "https://thapcamtvbc.net/",
+        "https://thapcamtvz.org/",
+        "https://thapcam-tv.co/"
+      ]
+    },
+    "bong-chuyen": {
+      "name": "Bóng chuyền",
+      "icon": "🏐",
+      "sub": "VNL · World Cup",
+      "language": "any",
+      "fingerprints": ["volleyball", "bóng chuyền"],
+      "candidates": [
+        "https://livetv.sx/enx/allupcomingsports/14/",
+        "https://livetv.sx/en/allupcomingsports/14/",
+        "https://www.livetv.sx/enx/allupcomingsports/14/",
+        "https://livetvsx.me/enx/allupcomingsports/14/",
+        "https://volleyballworld.tv/",
+        "https://www.fivb.com/en/volleyball"
+      ]
+    },
+    "tennis": {
+      "name": "Tennis",
+      "icon": "🎾",
+      "sub": "Grand Slam · ATP",
+      "language": "any",
+      "fingerprints": ["tennis", "ATP", "WTA"],
+      "candidates": [
+        "https://livetv.sx/enx/allupcomingsports/2/",
+        "https://livetv.sx/en/allupcomingsports/2/",
+        "https://www.livetv.sx/enx/allupcomingsports/2/",
+        "https://sportsurge.net/tennis.php",
+        "https://streameast.app/tennis",
+        "https://1stream.eu/tennis-streams/",
+        "https://totalsportek.tv/tennis-streams"
+      ]
+    },
+    "boxing": {
+      "name": "Boxing",
+      "icon": "🥊",
+      "sub": "Quyền Anh",
+      "language": "any",
+      "fingerprints": ["boxing", "fight"],
+      "candidates": [
+        "https://methstreams.app/boxing-streams/",
+        "https://streamconnect.us/boxing",
+        "https://streameast.app/boxing",
+        "https://1stream.eu/boxing-streams/",
+        "https://totalsportek.tv/boxing-streams",
+        "https://crackstreams.com/boxing/",
+        "https://sportsurge.net/boxing.php",
+        "https://livetv.sx/enx/allupcomingsports/9/"
+      ]
+    },
+    "mma": {
+      "name": "MMA / UFC",
+      "icon": "🤼",
+      "sub": "Tổng hợp",
+      "language": "any",
+      "fingerprints": ["mma", "ufc", "fight"],
+      "candidates": [
+        "https://methstreams.app/ufc-streams/",
+        "https://streamconnect.us/mma",
+        "https://streameast.app/mma",
+        "https://1stream.eu/ufc-streams/",
+        "https://totalsportek.tv/ufc-streams",
+        "https://crackstreams.com/mma/",
+        "https://sportsurge.net/mma.php",
+        "https://livetv.sx/enx/allupcomingsports/106/"
+      ]
+    },
+    "muay": {
+      "name": "Muay Thái",
+      "icon": "🥋",
+      "sub": "ONE · RWS",
+      "language": "any",
+      "fingerprints": ["muay", "one championship", "boxing"],
+      "candidates": [
+        "https://watch.onefc.com/",
+        "https://www.youtube.com/@ONEChampionship",
+        "https://methstreams.app/boxing-streams/",
+        "https://streameast.app/boxing",
+        "https://livetv.sx/enx/allupcomingsports/9/"
+      ]
+    },
+    "f1": {
+      "name": "F1",
+      "icon": "🏎️",
+      "sub": "Formula 1",
+      "language": "any",
+      "fingerprints": ["f1", "formula", "grand prix"],
+      "candidates": [
+        "https://f1streams.me/",
+        "https://streamconnect.us/f1",
+        "https://streameast.app/f1",
+        "https://1stream.eu/f1-streams/",
+        "https://totalsportek.tv/f1-stream",
+        "https://crackstreams.com/f1/",
+        "https://sportsurge.net/f1.php",
+        "https://livetv.sx/enx/allupcomingsports/12/"
+      ]
+    },
+    "motogp": {
+      "name": "MotoGP",
+      "icon": "🏍️",
+      "sub": "Đua mô tô",
+      "language": "any",
+      "fingerprints": ["motogp", "moto gp", "motorcycle"],
+      "candidates": [
+        "https://motogpstreams.online/",
+        "https://streamconnect.us/motogp",
+        "https://streameast.app/motogp",
+        "https://1stream.eu/motogp-streams/",
+        "https://totalsportek.tv/motogp-stream",
+        "https://crackstreams.com/motogp/",
+        "https://sportsurge.net/motogp.php",
+        "https://livetv.sx/enx/allupcomingsports/35/"
+      ]
+    }
+  }
+}
