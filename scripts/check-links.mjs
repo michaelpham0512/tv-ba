@@ -17,6 +17,14 @@ const PARKED_SIGNS = [
   'website coming soon', 'under construction',
 ];
 
+const PAYWALL_SIGNS = [
+  'subscribe to watch', 'sign up to watch', 'members only',
+  'subscription required', 'premium subscription', 'premium plan',
+  'start your free trial', 'add to cart', 'buy now',
+  'pay-per-view', 'ppv only', '/month', '/year',
+  'enter payment', 'credit card', 'select your plan',
+];
+
 async function fetchWithTimeout(url, ms = TIMEOUT_MS) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), ms);
@@ -40,6 +48,13 @@ function isParkedDomain(body) {
   return PARKED_SIGNS.some(sign => lower.includes(sign));
 }
 
+function isPaywallPage(body) {
+  const lower = body.toLowerCase().slice(0, 100000);
+  let hits = 0;
+  for (const sign of PAYWALL_SIGNS) if (lower.includes(sign)) hits++;
+  return hits >= 2;
+}
+
 function hasFingerprint(body, fingerprints) {
   if (!fingerprints || fingerprints.length === 0) return true;
   const lower = body.toLowerCase();
@@ -57,6 +72,7 @@ async function checkUrl(url, fingerprints) {
   if (!r.ok) return { url, live: false, reason: `HTTP ${r.status}${r.error ? ' ' + r.error : ''}` };
   if (r.body.length < 2000) return { url, live: false, reason: `body too small (${r.body.length}b)` };
   if (isParkedDomain(r.body)) return { url, live: false, reason: 'parked/for-sale page' };
+  if (isPaywallPage(r.body)) return { url, live: false, reason: 'paywall/subscription required' };
   if (!looksLikeStreamSite(r.body)) return { url, live: false, reason: 'no stream markers' };
   const fpOk = hasFingerprint(r.body, fingerprints);
   return {
