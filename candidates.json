@@ -1,6 +1,6 @@
 {
-  "_comment": "VIETNAMESE SITES ONLY. Cakhia covers most sports with Vietnamese commentary. International only as last resort.",
-  "_lastReview": "2026-04-30",
+  "_comment": "VIETNAMESE SITES ONLY. Paths verified from live site navigation 2026-05-01.",
+  "_lastReview": "2026-05-01",
   "sports": {
     "bong-da": {
       "name": "Bóng đá",
@@ -9,11 +9,11 @@
       "language": "vi",
       "fingerprints": ["bóng đá", "trực tiếp", "BLV"],
       "candidates": [
+        "https://cakhiatv247.net/link-truc-tiep-bong-da",
         "https://cakhiatv247.net/",
         "https://cakhiazkm.cc/",
         "https://cakhiatv.pink/",
         "https://vn-cakhia.com/",
-        "https://mecra.io/",
         "https://socolive8.cv/",
         "https://socolive5.in/",
         "https://nikio.io/",
@@ -22,6 +22,7 @@
         "https://xoilackx.tv/",
         "https://thapcamtv.one/",
         "https://thapcamtvbc.net/",
+        "https://thapcamtvbc1.mobi/",
         "https://thapcam24h.net/",
         "https://bingotv.cc/",
         "https://banhkhuc.tv/"
@@ -34,14 +35,12 @@
       "language": "vi",
       "fingerprints": ["bóng chuyền", "volleyball", "trực tiếp"],
       "candidates": [
-        "https://cakhiatv247.net/bong-chuyen",
+        "https://cakhiatv247.net/link-truc-tiep-bong-chuyen",
+        "https://cakhiazkm.cc/link-truc-tiep-bong-chuyen",
         "https://cakhiatv247.net/",
-        "https://cakhiazkm.cc/bong-chuyen",
         "https://cakhiazkm.cc/",
-        "https://cakhiatv.pink/",
         "https://thapcam24h.net/bong-chuyen",
-        "https://bingotv.cc/bong-chuyen",
-        "https://banhkhuc.tv/bong-chuyen"
+        "https://bingotv.cc/bong-chuyen"
       ]
     },
     "tennis": {
@@ -51,11 +50,10 @@
       "language": "vi",
       "fingerprints": ["tennis", "quần vợt", "trực tiếp"],
       "candidates": [
-        "https://cakhiatv247.net/tennis",
-        "https://cakhiatv247.net/quan-vot",
-        "https://cakhiazkm.cc/tennis",
+        "https://cakhiatv247.net/link-truc-tiep-tennis",
+        "https://cakhiazkm.cc/link-truc-tiep-tennis",
+        "https://cakhiatv247.net/",
         "https://cakhiazkm.cc/",
-        "https://cakhiatv.pink/",
         "https://thapcam24h.net/tennis",
         "https://thapcam24h.net/quan-vot",
         "https://bingotv.cc/tennis"
@@ -64,33 +62,29 @@
     "boxing": {
       "name": "Boxing",
       "icon": "🥊",
-      "sub": "Quyền Anh",
+      "sub": "Quyền Anh · Võ Thuật",
       "language": "vi",
-      "fingerprints": ["boxing", "quyền anh", "võ", "trực tiếp"],
+      "fingerprints": ["boxing", "quyền anh", "võ thuật", "trực tiếp"],
       "candidates": [
+        "https://cakhiatv247.net/link-truc-tiep-mma",
         "https://thapcam24h.net/truc-tiep-vo-thuat",
-        "https://thapcam24h.net/boxing",
-        "https://cakhiatv247.net/boxing",
-        "https://cakhiatv247.net/vo-thuat",
-        "https://cakhiazkm.cc/boxing",
+        "https://cakhiazkm.cc/link-truc-tiep-mma",
+        "https://cakhiatv247.net/",
         "https://cakhiazkm.cc/",
-        "https://bingotv.cc/boxing",
         "https://bingotv.cc/vo-thuat"
       ]
     },
     "mma": {
       "name": "MMA / UFC",
       "icon": "🤼",
-      "sub": "Tổng hợp",
+      "sub": "UFC · Tổng Hợp",
       "language": "vi",
       "fingerprints": ["mma", "ufc", "võ", "trực tiếp"],
       "candidates": [
         "https://cakhiatv247.net/link-truc-tiep-mma",
-        "https://cakhiatv247.net/mma",
-        "https://cakhiatv247.net/vo-thuat",
         "https://thapcam24h.net/truc-tiep-vo-thuat",
-        "https://thapcam24h.net/mma",
-        "https://cakhiazkm.cc/mma",
+        "https://cakhiazkm.cc/link-truc-tiep-mma",
+        "https://cakhiatv247.net/",
         "https://cakhiazkm.cc/",
         "https://bingotv.cc/mma"
       ]
@@ -103,13 +97,10 @@
       "fingerprints": ["muay", "võ", "one championship", "trực tiếp"],
       "candidates": [
         "https://cakhiatv247.net/link-truc-tiep-mma",
-        "https://cakhiatv247.net/muay-thai",
-        "https://cakhiatv247.net/vo-thuat",
         "https://thapcam24h.net/truc-tiep-vo-thuat",
-        "https://thapcam24h.net/muay-thai",
-        "https://cakhiazkm.cc/muay-thai",
-        "https://cakhiazkm.cc/",
-        "https://bingotv.cc/vo-thuat"
+        "https://cakhiazkm.cc/link-truc-tiep-mma",
+        "https://cakhiatv247.net/",
+        "https://cakhiazkm.cc/"
       ]
     },
     "f1": {
@@ -119,13 +110,12 @@
       "language": "vi",
       "fingerprints": ["f1", "formula", "đua xe", "trực tiếp"],
       "candidates": [
-        "https://cakhiatv247.net/f1",
-        "https://cakhiatv247.net/dua-xe",
+        "https://thapcamtvbc1.mobi/truc-tiep-dua-xe-f1",
         "https://cakhiazkm.cc/f1",
-        "https://cakhiazkm.cc/",
-        "https://thapcam24h.net/f1",
         "https://thapcam24h.net/dua-xe",
-        "https://bingotv.cc/f1",
+        "https://thapcam24h.net/f1",
+        "https://thapcamtvbc.net/dua-xe",
+        "https://cakhiatv247.net/dua-xe",
         "https://bingotv.cc/dua-xe"
       ]
     },
@@ -136,12 +126,12 @@
       "language": "vi",
       "fingerprints": ["motogp", "moto gp", "đua mô tô", "trực tiếp"],
       "candidates": [
-        "https://cakhiatv247.net/motogp",
-        "https://cakhiatv247.net/dua-xe",
+        "https://thapcamtvbc1.mobi/truc-tiep-dua-xe-f1",
+        "https://thapcamtvbc1.mobi/truc-tiep-dua-xe-motogp",
         "https://cakhiazkm.cc/motogp",
-        "https://cakhiazkm.cc/",
         "https://thapcam24h.net/motogp",
         "https://thapcam24h.net/dua-xe",
+        "https://cakhiatv247.net/dua-xe",
         "https://bingotv.cc/motogp"
       ]
     }
