@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-01T06:15:56.942Z",
+  "generatedAt": "2026-05-01T08:58:22.900Z",
   "sports": {
     "bong-da": {
       "name": "Bóng đá",
       "icon": "⚽",
       "sub": "Cup C1 · EPL · V-League",
-      "url": "https://mecra.io/",
-      "finalUrl": "https://azzurrisocceromaha.com/",
+      "url": "https://cakhiatv247.net/",
+      "finalUrl": "https://cakhiatv247.net/",
       "fingerprintMatch": true,
       "backups": []
     },
@@ -14,8 +14,8 @@
       "name": "Bóng chuyền",
       "icon": "🏐",
       "sub": "VNL · World Cup",
-      "url": "https://volleyballworld.tv/",
-      "finalUrl": "https://tv.volleyballworld.com/",
+      "url": "https://cakhiatv247.net/",
+      "finalUrl": "https://cakhiatv247.net/",
       "fingerprintMatch": true,
       "backups": []
     },
@@ -23,32 +23,26 @@
       "name": "Tennis",
       "icon": "🎾",
       "sub": "Grand Slam · ATP",
-      "url": "https://sportsurge.net/tennis.php",
-      "finalUrl": "https://v2.sportsurge.net/tennis.php",
-      "fingerprintMatch": false,
-      "backups": [
-        "https://streameast.app/tennis",
-        "https://1stream.eu/tennis-streams/"
-      ]
+      "url": "https://cakhiazkm.cc/tennis",
+      "finalUrl": "https://cakhiazkx.cc/",
+      "fingerprintMatch": true,
+      "backups": []
     },
     "boxing": {
       "name": "Boxing",
       "icon": "🥊",
       "sub": "Quyền Anh",
-      "url": "https://sportsurge.net/boxing.php",
-      "finalUrl": "https://v2.sportsurge.net/boxing.php",
+      "url": "https://thapcam24h.net/truc-tiep-vo-thuat",
+      "finalUrl": "https://thapcam24h.net/truc-tiep-vo-thuat",
       "fingerprintMatch": true,
-      "backups": [
-        "https://streameast.app/boxing",
-        "https://1stream.eu/boxing-streams/"
-      ]
+      "backups": []
     },
     "mma": {
       "name": "MMA / UFC",
       "icon": "🤼",
       "sub": "Tổng hợp",
-      "url": "https://streameast.app/mma",
-      "finalUrl": "https://www.alliance4creativity.com/watch-it-legally/?utm_source=streameast.app&utm_medium=Domain&utm_campaign=Redirect",
+      "url": "https://cakhiatv247.net/link-truc-tiep-mma",
+      "finalUrl": "https://cakhiatv247.net/link-truc-tiep-mma",
       "fingerprintMatch": true,
       "backups": []
     },
@@ -56,8 +50,8 @@
       "name": "Muay Thái",
       "icon": "🥋",
       "sub": "ONE · RWS",
-      "url": "https://watch.onefc.com/",
-      "finalUrl": "https://watch.onefc.com/",
+      "url": "https://cakhiatv247.net/link-truc-tiep-mma",
+      "finalUrl": "https://cakhiatv247.net/link-truc-tiep-mma",
       "fingerprintMatch": true,
       "backups": []
     },
@@ -65,8 +59,8 @@
       "name": "F1",
       "icon": "🏎️",
       "sub": "Formula 1",
-      "url": "https://streameast.app/f1",
-      "finalUrl": "https://www.alliance4creativity.com/watch-it-legally/?utm_source=streameast.app&utm_medium=Domain&utm_campaign=Redirect",
+      "url": "https://cakhiazkm.cc/f1",
+      "finalUrl": "https://cakhiazkx.cc/",
       "fingerprintMatch": true,
       "backups": []
     },
@@ -74,13 +68,10 @@
       "name": "MotoGP",
       "icon": "🏍️",
       "sub": "Đua mô tô",
-      "url": "https://sportsurge.net/motogp.php",
-      "finalUrl": "https://v2.sportsurge.net/motogp.php",
+      "url": "https://cakhiazkm.cc/motogp",
+      "finalUrl": "https://cakhiazkx.cc/",
       "fingerprintMatch": true,
-      "backups": [
-        "https://streameast.app/motogp",
-        "https://1stream.eu/motogp-streams/"
-      ]
+      "backups": []
     }
   }
 }

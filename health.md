@@ -1,32 +1,29 @@
-# Health Log — 2026-05-01T06:15:56.942Z
+# Health Log — 2026-05-01T08:58:22.900Z
 
-- **F1**: https://f1streams.me/ → https://streameast.app/f1
+No changes (all primaries still live).
 
 ## Detail per sport
 
 ### ⚽ Bóng đá
-- Primary: https://mecra.io/
+- Primary: https://cakhiatv247.net/
 
 ### 🏐 Bóng chuyền
-- Primary: https://volleyballworld.tv/
+- Primary: https://cakhiatv247.net/
 
 ### 🎾 Tennis
-- Primary: https://sportsurge.net/tennis.php
-- Backups: https://streameast.app/tennis, https://1stream.eu/tennis-streams/
+- Primary: https://cakhiazkm.cc/tennis
 
 ### 🥊 Boxing
-- Primary: https://sportsurge.net/boxing.php
-- Backups: https://streameast.app/boxing, https://1stream.eu/boxing-streams/
+- Primary: https://thapcam24h.net/truc-tiep-vo-thuat
 
 ### 🤼 MMA / UFC
-- Primary: https://streameast.app/mma
+- Primary: https://cakhiatv247.net/link-truc-tiep-mma
 
 ### 🥋 Muay Thái
-- Primary: https://watch.onefc.com/
+- Primary: https://cakhiatv247.net/link-truc-tiep-mma
 
 ### 🏎️ F1
-- Primary: https://streameast.app/f1
+- Primary: https://cakhiazkm.cc/f1
 
 ### 🏍️ MotoGP
-- Primary: https://sportsurge.net/motogp.php
-- Backups: https://streameast.app/motogp, https://1stream.eu/motogp-streams/
+- Primary: https://cakhiazkm.cc/motogp
