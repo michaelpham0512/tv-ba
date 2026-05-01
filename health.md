@@ -1,11 +1,11 @@
-# Health Log — 2026-05-01T02:50:36.768Z
+# Health Log — 2026-05-01T06:15:56.942Z
 
 - **F1**: https://f1streams.me/ → https://streameast.app/f1
 
 ## Detail per sport
 
 ### ⚽ Bóng đá
-- Primary: https://cakhiazkm.cc/
+- Primary: https://mecra.io/
 
 ### 🏐 Bóng chuyền
 - Primary: https://volleyballworld.tv/
