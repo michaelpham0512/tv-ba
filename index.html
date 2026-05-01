@@ -15,113 +15,32 @@
   .header p{font-size:clamp(18px,1.6vw,28px);color:#aaa;margin-top:12px}
   .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;max-width:1800px;margin:0 auto}
   @media (max-width:1200px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:600px){.grid{grid-template-columns:1fr}}
   .btn{display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.1);border-radius:24px;padding:50px 20px;text-decoration:none;color:#fff;transition:all .25s ease;cursor:pointer;min-height:280px;backdrop-filter:blur(10px)}
   .btn:hover,.btn:focus{background:linear-gradient(135deg,#ff6b35 0%,#f7931e 100%);border-color:#ff6b35;transform:scale(1.04);box-shadow:0 20px 50px rgba(255,107,53,.4);outline:none}
-  .btn.dead{background:rgba(255,80,80,.08);border-color:rgba(255,80,80,.3);cursor:not-allowed}
-  .btn.dead:hover{transform:none;box-shadow:none}
   .btn .icon{font-size:clamp(70px,7vw,110px);margin-bottom:16px;line-height:1}
   .btn .name{font-size:clamp(28px,2.4vw,40px);font-weight:700;letter-spacing:1px}
   .btn .sub{font-size:clamp(16px,1.2vw,22px);color:#aaa;margin-top:10px;text-align:center}
   .btn:hover .sub,.btn:focus .sub{color:rgba(255,255,255,.9)}
   .footer{text-align:center;margin-top:50px;font-size:clamp(14px,1vw,18px);color:#555}
-  .footer .update{color:#888}
 </style>
 </head>
 <body>
   <div class="header">
     <h1>📺 TIVI CỦA BA</h1>
-    <p>Bấm vào môn ba muốn coi</p>
+    <p>Bấm vào nút ba muốn coi</p>
   </div>
 
   <div class="grid">
-      <a class="btn" href="https://cakhiatv247.net/" data-sport="bong-da" data-backups="" target="_self" rel="noopener">
-        <div class="icon">⚽</div>
-        <div class="name">Bóng đá</div>
-        <div class="sub">Cup C1 · EPL · V-League</div>
-      </a>
-      <a class="btn" href="https://cakhiatv247.net/" data-sport="bong-chuyen" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🏐</div>
-        <div class="name">Bóng chuyền</div>
-        <div class="sub">VNL · World Cup</div>
-      </a>
-      <a class="btn" href="https://cakhiazkm.cc/tennis" data-sport="tennis" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🎾</div>
-        <div class="name">Tennis</div>
-        <div class="sub">Grand Slam · ATP</div>
-      </a>
-      <a class="btn" href="https://thapcam24h.net/truc-tiep-vo-thuat" data-sport="boxing" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🥊</div>
-        <div class="name">Boxing</div>
-        <div class="sub">Quyền Anh</div>
-      </a>
-      <a class="btn" href="https://cakhiatv247.net/link-truc-tiep-mma" data-sport="mma" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🤼</div>
-        <div class="name">MMA / UFC</div>
-        <div class="sub">Tổng hợp</div>
-      </a>
-      <a class="btn" href="https://cakhiatv247.net/link-truc-tiep-mma" data-sport="muay" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🥋</div>
-        <div class="name">Muay Thái</div>
-        <div class="sub">ONE · RWS</div>
-      </a>
-      <a class="btn" href="https://cakhiazkm.cc/f1" data-sport="f1" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🏎️</div>
-        <div class="name">F1</div>
-        <div class="sub">Formula 1</div>
-      </a>
-      <a class="btn" href="https://cakhiazkm.cc/motogp" data-sport="motogp" data-backups="" target="_self" rel="noopener">
-        <div class="icon">🏍️</div>
-        <div class="name">MotoGP</div>
-        <div class="sub">Đua mô tô</div>
-      </a>
+    <a class="btn" href="https://thapcamtvbc.net/" target="_self" rel="noopener">
+      <div class="icon">⚽</div>
+      <div class="name">THẬP CẨM TV</div>
+      <div class="sub">Bóng đá · Tennis · Đua xe · Võ thuật</div>
+    </a>
   </div>
 
   <div class="footer">
-    <p class="update">Cập nhật tự động: 01/05/2026 08:58</p>
     <p>Có lỗi: gọi Huy</p>
   </div>
-
-<script>
-// Client-side fallback: if user clicks a link and it fails to load (page isn't reachable
-// from inside LG WebOS browser), automatically try the next backup URL.
-document.querySelectorAll('a.btn[data-backups]').forEach(a => {
-  a.addEventListener('click', function(e) {
-    const backups = (this.dataset.backups || '').split(',').filter(Boolean);
-    if (backups.length === 0) return;
-    // Save state so we can retry
-    try {
-      sessionStorage.setItem('lastSport', this.dataset.sport);
-      sessionStorage.setItem('lastUrl', this.href);
-      sessionStorage.setItem('backups', JSON.stringify(backups));
-      sessionStorage.setItem('clickAt', String(Date.now()));
-    } catch(_) {}
-  });
-});
-
-// On hub page load, check if we returned because the previous click failed.
-// Detection: if user came back to hub within 6 seconds with same referrer, primary was unreachable.
-(function() {
-  try {
-    var clickAt = parseInt(sessionStorage.getItem('clickAt') || '0', 10);
-    var lastUrl = sessionStorage.getItem('lastUrl');
-    var backups = JSON.parse(sessionStorage.getItem('backups') || '[]');
-    if (clickAt && lastUrl && backups.length > 0 && (Date.now() - clickAt) < 8000) {
-      // Probably failed. Try next backup.
-      var next = backups.shift();
-      if (next) {
-        sessionStorage.setItem('backups', JSON.stringify(backups));
-        sessionStorage.setItem('lastUrl', next);
-        sessionStorage.setItem('clickAt', String(Date.now()));
-        // Visual feedback before redirect
-        document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:36px;color:#fff;text-align:center;padding:20px">⏳ Link chính lỗi, đang chuyển sang link dự phòng...</div>';
-        setTimeout(function(){ window.location.href = next; }, 800);
-      }
-    } else {
-      // Reset state on fresh hub visit
-      sessionStorage.removeItem('clickAt');
-    }
-  } catch(_) {}
-})();
-</script>
 </body>
 </html>
